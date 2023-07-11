@@ -8,5 +8,9 @@ body,
 #gatsby-focus-wrapper {
   height: 100%;
   background-color: black;
-  color: #CC5500;
+  color: #75c9c4;
+}
+
+.mainText {
+  width: 400px;
 }
