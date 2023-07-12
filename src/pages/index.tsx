@@ -6,6 +6,7 @@ import {
 } from "@heroicons/react/24/solid";
 import { Link } from "gatsby";
 import type { HeadFC, PageProps } from "gatsby";
+import resume from "../../static/resume.pdf";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -25,11 +26,13 @@ const IndexPage: React.FC<PageProps> = () => {
       <section className="w-full h-auto">
         <div className="mx-auto w-full p-1 border-y-2 font-semibold flex flex-row justify-between ">
           <h5 className="ml-10 my-px">Contact: Samuel.m.peterson@gmail.com</h5>
-          <Link
-            to=""
+          <a
+            href={resume}
+            target="_blank"
+            rel="noopener noreferrer"
             className="mr-10 bg-lightBlue text-black rounded px-2 font-normal">
             Resume
-          </Link>
+          </a>
         </div>
         <h6 className="text-center mt-2 text-lg font-bold">Work Samples</h6>
         <p className="text-center text-sm font-extralight">
