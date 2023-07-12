@@ -16,7 +16,7 @@ const IndexPage: React.FC<PageProps> = () => {
 
       <main className="flex flex-row justify-center items-center ml-32 w-4/5 h-1/3">
         <h3 className="mainText">
-          I am a React developer focusing on Next.JS though I can work in any
+          I am a React developer focusing on Next.JS, though I can work in any
           React framework or JavaScript project. I am looking to freelance and
           build your website. Please see my work samples below and contact me.
         </h3>
@@ -47,7 +47,7 @@ const IndexPage: React.FC<PageProps> = () => {
             <BookOpenIcon className="h-20" />
           </a>
           <a
-            href=""
+            href="https://github.com/samPeterson99/your-book-of-recipes"
             className="mt-2 bg-lightBlue text-center cursor-pointer text-black w-3/5 rounded">
             View Code
           </a>
@@ -66,7 +66,7 @@ const IndexPage: React.FC<PageProps> = () => {
             <BugAntIcon className="h-20" />
           </a>
           <a
-            href=""
+            href="https://github.com/samPeterson99/schedule-bug"
             className="mt-2 bg-lightBlue text-center cursor-pointer text-black w-3/5 rounded">
             View Code
           </a>
@@ -79,11 +79,11 @@ const IndexPage: React.FC<PageProps> = () => {
           <a
             className="flex flex-col items-center"
             href="https://sampeterson99.github.io/example-retail-site/">
-            <h5 className="text-lg font-bold">Example Business Site</h5>
+            <h5 className="text-lg font-bold">Example Retail Site</h5>
             <BuildingStorefrontIcon className="h-20" />
           </a>
           <a
-            href=""
+            href="https://github.com/samPeterson99/example-retail-site"
             className="mt-2 bg-lightBlue text-center cursor-pointer text-black w-3/5 rounded">
             View Code
           </a>
